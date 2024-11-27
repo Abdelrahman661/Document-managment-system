@@ -1,0 +1,49 @@
+.modal-content {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+  background-color: #212529;
+  color: white;
+}
+
+.modal-title {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.modal-body {
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 40px;
+  border: 1px solid #ced4da;
+  transition: border-color 0.2s ease;
+  margin-bottom: 3px;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.submit-button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.delete-button {
+  margin-left: 10px;
+}
+
+.create-workspace-button {
+  margin-bottom: 20px;
+}
